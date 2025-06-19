@@ -1,5 +1,4 @@
 FROM almalinux:8
 CMD [ "sleep", "100"]
-# yum install nginx -y 
+# RUN useradd raveen
 # USER raveen 
-# CMD ["nginx", "-g", "daemon off;"]
